@@ -1,22 +1,42 @@
 # Operations Intelligence Africa
 
-A statistical intelligence framework designed for informal and formal businesses in emerging markets. Real problems. Real data. Real decisions.
+A Python project exploring how statistical and operational metrics can help small businesses reason about stock movement, revenue, and logistics. The repository includes a core intelligence module, a Google Sheets connector, examples, and separate analytical scripts.
 
-## The Problem
-Most data tools are built for Silicon Valley, assuming stable infrastructure, clean data, and enterprise budgets. In Ife, Lagos, or Nairobi, the reality is different. Businesses operate in high-volatility environments with fragmented data and minimal overhead.
+## Current scope
 
-## The Vision
-A lightweight, Python-powered intelligence layer that works on any phone, any network, and any budget. This framework bridges the gap between raw ledger data and strategic business decisions.
+The project is intended to make operational analysis approachable where data is fragmented and budgets or connectivity may be limited.
 
-## Features:
-. **Inventory Intelligence**: ABC analysis and stock velocity tracking.
-. **Revenue Analytics**: Automated reporting and growth tracking.
-. **Statistical Anomaly Detection**: Identifying leaks and operational errors.
-. **Lightweight Forecasting**: Predicting demand with minimal historical data.
+Areas explored include:
+- Inventory and stock-velocity analysis
+- Revenue and operational reporting
+- Logistics return-on-investment calculations
+- Lightweight examples for demonstrating analytical logic
 
-## Technical Stack:
-. **Core**: Python, pandas, numpy, scipy.
-. **Connectivity**: Google Sheets API for low-cost, accessible data storage.
-. **Case Study**: Implementation at C-Way Depot, Ife, Nigeria.
+See the source files and examples to distinguish implemented functions from planned ideas.
 
-Built by **Irem Victor Chinonso**, Statistical Business Architect, OAU Ile-Ife.
+## Repository areas
+
+- `core/`: analytical logic and Google Sheets integration
+- `examples/`: example/demo entry point
+- `frameworks/`, `insights/`, and `market/`: supporting project material
+- `logistics_roi_optimization.py`: logistics ROI calculations
+
+## Getting started
+
+Requires Python 3. Start by reviewing the source and the demo script. Dependencies, credentials, and exact run instructions should be documented alongside the relevant module before relying on any external integration. Never commit API credentials or private business data.
+
+## Important limitations
+
+This is an evolving portfolio project. A repository description or example is not proof of a verified production deployment or measured business impact. The current project still needs a documented environment setup, sample dataset, automated tests, explicit input/output examples, and a clear distinction between tested functionality and planned work.
+
+## Next steps
+
+1. Add dependency and setup instructions.
+2. Include synthetic sample data that can be shared safely.
+3. Add automated tests for analytical calculations and edge cases.
+4. Document assumptions, formulas, units, and interpretation of each metric.
+5. Record real-world results only when they can be substantiated and shared with permission.
+
+## Author
+
+Irem Victor Chinonso — Statistics student building practical skills in Python and operational analytics.
